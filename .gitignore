@@ -277,3 +277,27 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+### Pulumi ###
+
+# Ignore temp build directory for Pulumi
+
+# Info: https://www.pulumi.com/docs/
+.pulumi/
++stacks
++stacks
+
+### Pulumi+stacks ###
+
+# Ignore temp build directory for Pulumi
+
+# Info: https://www.pulumi.com/docs/
+.pulumi/
+
+### Pulumi+stacks Patch ###
+
+# Pulumi stacks configuration files
+
+# See https://www.pulumi.com/docs/intro/concepts/project/#stack-settings-file
+Pulumi.*.yaml
++stacks
