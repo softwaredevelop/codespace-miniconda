@@ -1,0 +1,5 @@
+name: trade
+runtime: go
+description: A local source Go Pulumi program for a codespace miniconda project
+options:
+    refresh: always
