@@ -16,3 +16,9 @@ indent_size = 2
 
 [*.{go,mod,sum}]
 indent_style = tab
+
+[devcontainer.*]
+indent_style = tab
+
+[settings.json]
+indent_size = 2
