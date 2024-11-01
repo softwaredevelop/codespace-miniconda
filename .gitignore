@@ -301,3 +301,6 @@ pyrightconfig.json
 # See https://www.pulumi.com/docs/intro/concepts/project/#stack-settings-file
 Pulumi.*.yaml
 +stacks
+
+### dotenv ###
+.env
